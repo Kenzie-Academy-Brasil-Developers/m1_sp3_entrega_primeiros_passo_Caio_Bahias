@@ -1,166 +1,172 @@
-// EX1
 
-// let NumeroA = parseInt(prompt("Insira o Primeiro Numero:"))
-// let NumeroB = parseInt(prompt("Insira o Segundo Numero:"))
+/* EX01 */
 
-// if(NumeroA > NumeroB){
+let NumeroA = parseInt(prompt("Insira o Primeiro Numero:"))
+let NumeroB = parseInt(prompt("Insira o Segundo Numero:"))
 
-//     alert(`O maior número é ${NumeroA} e a diferença é ${NumeroA-NumeroB}`)
-// }
-// else{
+if(NumeroA > NumeroB){
 
-//     alert(`O maior número é ${NumeroB} e a diferença é ${NumeroB-NumeroA}`)
-// }
+    alert(`O maior número é ${NumeroA} e a diferença é ${NumeroA-NumeroB}`)
+}
+else{
 
-// EX2
+    alert(`O maior número é ${NumeroB} e a diferença é ${NumeroB-NumeroA}`)
+}
 
-
-// let NumeroA = parseFloat(prompt("Insira o Primeiro Numero:"))
-// let NumeroB = parseFloat(prompt("Insira o Segundo Numero:"))
-
-// if(NumeroA > NumeroB){
-
-//     alert(`O maior número é ${NumeroA} e a diferença é ${NumeroA-NumeroB}`)
-// }
-// else if(NumeroA == NumeroB){ 
-
-//     alert(`Os numeros são iguais!`)
-// }
-// else{
-
-//     alert(`O maior número é ${NumeroB} e a diferença é ${NumeroB-NumeroA}`)
-// }
-
-// EX3
-
-// let salario = parseInt(prompt("Insira seu salario:"))
-// let emprestimo = parseInt(prompt("Insira o valor da prestação:"))
-
-// if(salario*0.3 < emprestimo){
-//     alert("Empréstimo não concedido")
-// }
-// else{
-//     alert("Empréstimo concedido")
-// }
-
-// EX4 
-
-// let numero = parseInt(prompt("Insira seu numero"))
-
-// let divA = numero%3
-// let divB= numero%5
-// let divC = numero%2
+/* EX02 */
 
 
-// if(divA == 0 && divB == 0){
+let NumeroA = parseFloat(prompt("Insira o Primeiro Numero:"))
+let NumeroB = parseFloat(prompt("Insira o Segundo Numero:"))
 
-//     console.log("Numero invalido")
+if(NumeroA > NumeroB){
+
+    alert(`O maior número é ${NumeroA} e a diferença é ${NumeroA-NumeroB}`)
+}
+else if(NumeroA == NumeroB){ 
+
+    alert(`Os numeros são iguais!`)
+}
+else{
+
+    alert(`O maior número é ${NumeroB} e a diferença é ${NumeroB-NumeroA}`)
+}
+
+
+/* EX03 */
+
+let salario = parseInt(prompt("Insira seu salario:"))
+let emprestimo = parseInt(prompt("Insira o valor da prestação:"))
+
+if(salario*0.3 < emprestimo){
+    alert("Empréstimo não concedido")
+}
+else{
+    alert("Empréstimo concedido")
 // }
 
-//     else if(divA == 0){
+/* EX04 */
 
-//     console.log("Valor divisível por 3")
-//     }
+let numero = parseInt(prompt("Insira seu numero"))
 
-//     else if(divB == 0){
+let divA = numero%3
+let divB= numero%5
+let divC = numero%2
 
-//     console.log("Valor divisivel por 5")
-//     }
 
-//     else if(divC == 0){
+if(divA == 0 && divB == 0){
 
-//         console.log("O seu numero é par")
-//     }  
+    console.log("Numero invalido")
+}
 
-//     else if (divC != 0){
+    else if(divA == 0){
 
-//         console.log("O seu numero é impar")
-//     }
+    console.log("Valor divisível por 3")
+    }
 
-// EX5
+    else if(divB == 0){
 
-// let numeroData = parseInt(prompt("Insira o numero equivalente ao dia da semana (sendo domingo o numero 1)"))
+    console.log("Valor divisivel por 5")
+    }
 
-// if(numeroData == 1){
+    else if(divC == 0){
 
-//     alert("o dia equivalente é domingo")
-// }
+        console.log("O seu numero é par")
+    }  
 
-// else if(numeroData == 2){
+    else if (divC != 0){
 
-//     alert("o dia equivalente é Segunda")
-// }
+        console.log("O seu numero é impar")
+    }
 
-// else if(numeroData == 3){
 
-//     alert("o dia equivalente é Terça")
-// }
+/* EX05 */
 
-// else if(numeroData == 4){
+let numeroData = parseInt(prompt("Insira o numero equivalente ao dia da semana (sendo domingo o numero 1)"))
 
-//     alert("o dia equivalente é Quarta")
-// }
+if(numeroData == 1){
 
-// else if(numeroData == 5){
+    alert("o dia equivalente é domingo")
+}
 
-//     alert("o dia equivalente é Quinta")
-// }
+else if(numeroData == 2){
 
-// else if(numeroData == 6){
+    alert("o dia equivalente é Segunda")
+}
 
-//     alert("o dia equivalente é Sexta")
-// }
+else if(numeroData == 3){
 
-// else if(numeroData == 7){
+    alert("o dia equivalente é Terça")
+}
 
-//     alert("o dia equivalente é sabado")
-// }
+else if(numeroData == 4){
 
-// else{
+    alert("o dia equivalente é Quarta")
+}
 
-//     alert("Esse dia existe mesmo?")
-// }
+else if(numeroData == 5){
 
-// EX6
+    alert("o dia equivalente é Quinta")
+}
 
-// let salario = parseFloat(prompt("Insira o salario do contribuidor:"))
-// let imputReajuste = parseFloat(prompt("Insira a taxa de reajuste do colaborador(em %):"))
+else if(numeroData == 6){
 
-// let reajusteReal = imputReajuste/100
+    alert("o dia equivalente é Sexta")
+}
 
-// if(reajusteReal > 0.05){
-//     alert("O reajuste é até 5%, tente novamente:")
-// }
+else if(numeroData == 7){
 
-// else if(reajusteReal < 0){
-//     alert("O reajuste precisa ser entre 0-5%")
-// }
-// else if(reajusteReal<= 0.05)
-//     alert(`O salario do colaborador corrigido é de: R$ ${(salario*reajusteReal)+salario}`)
+    alert("o dia equivalente é sabado")
+}
 
-// EX7
+else{
 
-// let valorEmReal = parseFloat(prompt("Insira o valor a ser convertido em R$"))
-// let valorDoDolar = parseFloat(prompt("Insira o valor do dolar hoje"))
+    alert("Esse dia existe mesmo?")
+}
 
-//     alert(`$${valorEmReal/valorDoDolar} é equivalente a R$${valorEmReal}, tendo $${valorDoDolar} dolares como cotação.`)
 
-// EX8
+/* EX06 */
+
+let salario = parseFloat(prompt("Insira o salario do contribuidor:"))
+let imputReajuste = parseFloat(prompt("Insira a taxa de reajuste do colaborador(em %):"))
+
+let reajusteReal = imputReajuste/100
+
+if(reajusteReal > 0.05){
+    alert("O reajuste é até 5%, tente novamente:")
+}
+
+else if(reajusteReal < 0){
+    alert("O reajuste precisa ser entre 0-5%")
+}
+else if(reajusteReal<= 0.05)
+    alert(`O salario do colaborador corrigido é de: R$ ${(salario*reajusteReal)+salario}`)
+
+
+/* EX07 */
+
+let valorEmReal = parseFloat(prompt("Insira o valor a ser convertido em R$"))
+let valorDoDolar = parseFloat(prompt("Insira o valor do dolar hoje"))
+
+    alert(`$${valorEmReal/valorDoDolar} é equivalente a R$${valorEmReal}, tendo $${valorDoDolar} dolares como cotação.`)
+
+    
+/* EX08 */
 
 // ?
 
-// EX9 
+/* EX09 */
 
-// let tempo = parseFloat(prompt("Quantas horas foram gastas na viagem?"))
-// let velocidade = parseFloat(prompt("Qual a velocidade media do veiculo na viagem?(km/h)"))
+let tempo = parseFloat(prompt("Quantas horas foram gastas na viagem?"))
+let velocidade = parseFloat(prompt("Qual a velocidade media do veiculo na viagem?(km/h)"))
 
-// let distancia = tempo*velocidade
+let distancia = tempo*velocidade
 
-// let litro = distancia/12
+let litro = distancia/12
 
-// alert(`Seu veículo percorreu ${distancia}km a ${velocidade} km/h em ${tempo}h de viagem e consumiu ${litro.toFixed(2)}l de gasolina`)
+alert(`Seu veículo percorreu ${distancia}km a ${velocidade} km/h em ${tempo}h de viagem e consumiu ${litro.toFixed(2)}l de gasolina`)
 
-// EX10 
+/* EX10 */
 
 let valor = parseInt(prompt("Insira o valor total"))
 let taxa = parseInt(prompt("Insira o valor da taxa"))
