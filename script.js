@@ -43,7 +43,7 @@ if(salario*0.3 < emprestimo){
 }
 else{
     alert("Empréstimo concedido")
-// }
+}
 
 /* EX04 */
 
